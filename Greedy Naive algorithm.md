@@ -1,5 +1,3 @@
-# Data-mining
-Includes algorithms of Data mining
 
 # Greed Naive algorithm
 The algorithm is about k-mean center problem. In the algorithm for the k-center problem, the first cluster head is chosen randomly. A naïve improvement is to try every node as the first cluster head and then find the corresponding partition. Therefore, we obtain n = |V| partitions. Finally, we simply output the best partition among these n partitions, i.e., the one that has the smallest maximum radius. This program actually compare the original greedy algorithm and the above naïve improvement. The first output graph is of greedy algorithm and the remaining are from forced selection of nodes. first we select node 1 then node 2 and so on.
